@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;min-height: 10vh;
+
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+
+}
+.contenedor .izquierda{
+    position: relative;
+    background: pink;
+    padding:40px;
+}
+.texto1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.texto1.imagen{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.texto1.imagen img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texto1 h2{
+    color: black;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.telefono{
+    padding-top: 40PX;
+}
+.titulo{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+.telefono ul{
+    position: relative;
+
+}
+.telefono ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor:pointer;
+
+}
+.telefono ul li .icono{
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color: black;
+}
+.telefono ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.educacion li{
+    margin-bottom: 15px;
+
+}
+.educacion ul li h5{
+    color: black;
+    font-weight: 500;
+}
+.educacion ul li h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.educacion  h4{
+    color: #fff;
+    font-weight: 300;
+}
+.idioma  .idiom {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+
+.contenedor .derecha {
+    position: relative;
+    background: #fff;
+    padding:40px;
+}
+.sobre{
+    margin-bottom: 50px;
+
+}
+.sobre:last-child{
+    margin-bottom: 0;
+}
+.titulo3{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    font-family: Verdana;
+}
+.sobre .caja{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.sobre .caja .año {
+    min-width: 150px;
+}
+.sobre .caja .año  h5{
+    text-transform: uppercase;
+    color: black;
+    font-weight:600 ;
+}
+.sobre .caja .texto2 h4{
+    text-transform: uppercase;
+    color:green;
+    font-size: 16px;
+}
+.estilos ul li{
+    list-style:disc;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+
+
+
+.intereses ul{
+    display: grid;
+    
+}
+.intereses ul li{
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.intereses ul li .fa{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 10px;
+    
+}
